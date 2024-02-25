@@ -72,6 +72,7 @@ public class UserController {
         }
     }
 
+    /** method to generate refresh token for original token **/
     @PostMapping("/generateRefreshToken")
     public AuthResponse refreshToken(HttpServletRequest request, HttpServletResponse response){
         return userService.generateTokenFromRefreshToken(request, response);
