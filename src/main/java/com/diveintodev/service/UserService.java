@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 
+/** refresh token and normal token follows the same pattern for token generation **/
 @Service
 @AllArgsConstructor
 @NoArgsConstructor
