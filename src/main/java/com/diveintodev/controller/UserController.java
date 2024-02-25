@@ -60,6 +60,8 @@ public class UserController {
         return userService.addModerator(user);
     }
 
+
+    /** method to generate token for original token **/
     @PostMapping("/generateToken")
     public AuthResponse generateToken(@RequestBody AuthRequest authRequest){
 
